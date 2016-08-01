@@ -95,10 +95,10 @@ public class fleetMenu {
 	}
 	public static Jet findMostRange(Jet[] listOfJets) {
 		Jet findMostRange = listOfJets[0];
-		double findSpeed = 0;
+		double findRange = 0;
 		for (int i = 0; i < listOfJets.length; i++) {
-			if (listOfJets[i].getSpeedMPH() > findSpeed) {
-				findSpeed = listOfJets[i].getSpeedMPH();
+			if (listOfJets[i].getRange() > findRange) {
+				findRange = listOfJets[i].getRange();
 				findMostRange = listOfJets[i];
 			}
 		}
