@@ -11,7 +11,11 @@ public class fleetMenu {
 		// Jet[] listOfJets; ^ moved it up so the methods could see it
 		Jet airplane = new Jet("C-17", 515, 2420, 218000000);
 		Jet airplane2 = new Jet("F-22", 1500, 1840, 150000000);
-		Jet listOfJets[] = { airplane, airplane2 };
+		Jet airplane3 = new Jet("A-10", 518, 2580, 18800000);
+		Jet airplane4 = new Jet("C-130", 366, 2360, 30100000);
+		Jet airplane5 = new Jet("C-5", 571, 2760, 100370000);
+		
+		Jet listOfJets[] = { airplane, airplane2, airplane3, airplane4, airplane5 };
 
 		int option;
 		while (true) {
